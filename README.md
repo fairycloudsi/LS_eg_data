@@ -4,11 +4,9 @@ In this repository we provide data for Linear Regression Model.
 
 The objective function of minimization problem is 
 
-\begin{equation}
-
+$$
 f(x) = \frac{1}{M} * \| b - A x\|^2 + \lambda \|x\|_2^2,
-
-\end{equation}
+$$
 
 where $A$ is the data matrix, b is the label and x is the weights we want to figure out. 
 
