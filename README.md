@@ -3,7 +3,7 @@
 In this repository we provide data for Linear Regression Model. 
 
 The objective function of minimization problem is 
-
+$$inline$$ 
 $$
 f(x) = \frac{1}{M} * \| b - A x\|^2 + \lambda \|x\|_2^2,
 $$
