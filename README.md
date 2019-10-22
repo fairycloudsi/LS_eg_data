@@ -59,6 +59,8 @@ where
 * Condition number are stored in LS_UDV_conda_list_lambda01.mat
 * Optimum value are stored in LS_UDV_f_opt_lambda01.mat
 
+More details, see eg_LS_UDV1.m
+
 
 
 
