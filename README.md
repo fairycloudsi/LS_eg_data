@@ -63,4 +63,4 @@ where
 
 More details, see eg_LS_UDV1.m
 
-For numerical results, check [here](alg/result_txt/results_LS_Ab_1022). We reduce iteration steps from 13745 to 179.7 in worst case and achieve a performance comparable to AMG. 
+For numerical results, check [here](alg/results_txt/results_LS_Ab_1022). We reduce iteration steps from 13745 to 179.7 in worst case and achieve a performance comparable to AMG. 
