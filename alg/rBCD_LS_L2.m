@@ -102,14 +102,14 @@ function [niter,niter_dn, time_setup, time_iter, f_2] = rBCD_LS_L2(A,b,x,f_ob,la
     title('Linear Regression Coordinate Descent: fvalue')
     xlabel('number of iterations')
     ylabel('function value')
-    name = strcat('rCD_LS_L2', datestr(now));   
+    name = strcat('../fig/rCD_LS_L2', datestr(now),'M',);   
     saveas(gcf, name, 'jpg');
     figure(2)
     plot(1:niter, g_norm_list(1:niter), '-r', 'LineWidth', 2);
     title('Linear Regression Coordinate Descent: gnorm')
     xlabel('number of iterations')
     ylabel('norm of gradient')
-    name = strcat('rCD_LS_L2_gnorm', datestr(now));   
+    name = strcat('../fig/rCD_LS_L2_gnorm', datestr(now));   
     saveas(gcf, name, 'jpg');
   
     
