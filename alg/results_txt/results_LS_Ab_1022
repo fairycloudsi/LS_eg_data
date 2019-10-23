@@ -1,0 +1,81 @@
+>> eg_LS_L2
+
+ Algebraic Multigrid W-cycle Preconditioner with Conjugate Gradient Method
+  nnz/N: 14.00,   level:  2,   coarse grid  4,   nnz/Nc 4.00
+#dof:      14,    iter:  8,   err = 1.3667e-10,   time = 0.06 s
+ 
+
+ Algebraic Multigrid W-cycle Preconditioner with Conjugate Gradient Method
+  nnz/N: 30.00,   level:  2,   coarse grid  3,   nnz/Nc 3.00
+#dof:      30,    iter: 14,   err = 5.9774e-09,   time = 0.01 s
+ 
+
+ Algebraic Multigrid W-cycle Preconditioner with Conjugate Gradient Method
+  nnz/N: 62.00,   level:  2,   coarse grid  8,   nnz/Nc 8.00
+#dof:      62,    iter: 24,   err = 5.1993e-09,   time =    0 s
+ 
+
+ Algebraic Multigrid W-cycle Preconditioner with Conjugate Gradient Method
+  nnz/N: 126.00,   level:  2,   coarse grid 12,   nnz/Nc 12.00
+#dof:     126,    iter: 44,   err = 7.6590e-09,   time = 0.06 s
+ 
+
+ Algebraic Multigrid W-cycle Preconditioner with Conjugate Gradient Method
+  nnz/N: 254.00,   level:  2,   coarse grid 15,   nnz/Nc 15.00
+#dof:     254,    iter: 86,   err = 8.7744e-09,   time = 0.21 s
+ 
+
+ Algebraic Multigrid W-cycle Preconditioner with Conjugate Gradient Method
+  nnz/N: 510.00,   level:  2,   coarse grid 23,   nnz/Nc 23.00
+#dof:     510,    iter: 154,   err = 9.1850e-09,   time = 1.15 s
+ 
+condition number and f_opt of LS_L2_UDV problem
+
+T =
+
+  6×4 table
+
+     M      N      fopt      conda 
+    ___    ___    _______    ______
+
+      7     14    0.18808    18.925
+     15     30    0.50655    56.843
+     31     62    0.51776     163.9
+     63    126    0.56577    462.48
+    127    254    0.45056    1369.2
+    255    510    0.55051    3862.3
+
+alpha = 
+   1.0000e-04
+
+alpha = 
+   1.0000e-04
+
+alpha = 
+   1.0000e-04
+
+alpha = 
+   1.0000e-04
+
+alpha = 
+   1.0000e-04
+
+alpha = 
+   1.0000e-04
+
+Performance Comparison of rBCD_LS_L2 and rFASD_LS_L2
+
+T =
+
+  6×13 table
+
+     M      N       niter       niter_dn    niter2    niter2_dj     fopt       fopt2     fexact     time_setup    time_setup2    time_iter    time_iter2
+    ___    ___    __________    ________    ______    _________    _______    _______    _______    __________    ___________    _________    __________
+
+      7     14          6402     457.29         3        0.15      0.28807    0.24111    0.18808     0.0029721     0.0085409     0.040033     0.0012203 
+     15     30         17300     576.67        45      1.0976      0.60654    0.58908    0.50655     0.0010764     0.0081607     0.068145     0.0030957 
+     31     62         33858      546.1       315         4.2      0.61776     0.6125    0.51776    0.00014157      0.026772      0.13773     0.0043675 
+     63    126    8.4735e+05       6725      2063      14.228      0.66577    0.66519    0.56577    0.00015617     0.0082644       4.8651      0.023832 
+    127    254    6.5211e+05     2567.4     24364       87.64      0.55056    0.55055    0.45056    0.00057727      0.018635       7.7473       0.51493 
+    255    510    7.0102e+06      13745     97578       179.7      0.65051    0.65051    0.55051    0.00010487      0.048107       215.93        6.8755 
+
